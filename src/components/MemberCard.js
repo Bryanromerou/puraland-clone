@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faCrow, faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const MemberCard = ({image, member, role, facebook, gmail, twitter}) => {
   return (
@@ -12,7 +12,9 @@ const MemberCard = ({image, member, role, facebook, gmail, twitter}) => {
         <p className="member-name">{member}</p>
         <p className="member-role">{role}</p>
         <div className="member-contacts">
-          <FontAwesomeIcon icon={faCoffee} />
+          <FontAwesomeIcon icon={faSearch} />
+          <FontAwesomeIcon icon={faBook} />
+          <FontAwesomeIcon icon={faCrow} />
         </div>
       </div>
     </div>
