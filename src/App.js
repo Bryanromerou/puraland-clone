@@ -3,6 +3,7 @@ import About from './pages/About';
 import Hero from './pages/Hero';
 import Services from './pages/Services';
 import Teams from './pages/Teams';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About/>
       <Teams/>
       <Services/>
+      <Contact/>
     </div>
   );
 }

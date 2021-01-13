@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faCrow, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faCrow, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const MemberCard = ({image, member, role, facebook, gmail, twitter}) => {
   return (
