@@ -3,7 +3,7 @@ import Button from '../components/Button';
 
 const Hero = () => {
     return (
-        <div className="hero-container">
+        <div id="hero-container">
           <div className="hero-content">
             <div className="hero-text">
               <h1>We are Puraland</h1>

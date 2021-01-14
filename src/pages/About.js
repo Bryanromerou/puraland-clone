@@ -11,7 +11,7 @@ const About = () => {
 
 
   return (
-    <div className="about-container">
+    <div id="about-container">
       <div className="about-us">
         <h4>About us.</h4>
         <p>Pura comes with 11 unique and stunning demos. We have crafted each and every demo with extensive care and precision and the theme is power packed yet easy to use.</p>

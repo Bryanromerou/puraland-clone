@@ -4,7 +4,7 @@ import { faBook, faCrow, faSearch, faEnvelope, faPhone } from '@fortawesome/free
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id="contact-container">
       <div className="contact-pura">
         <h5><span>Pura</span> Agency.</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae possimus cupiditate earum officiis tempore doloribus dolorum sunt vitae, quos asperiores maxime eaque facilis consequuntur perferendis.</p>
@@ -13,16 +13,18 @@ const Contact = () => {
       <div className="contact-us">
         <p className="contact-title">Reach us</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <p>
-          <FontAwesomeIcon icon={faEnvelope}/>support@themeptation.com
-        </p>
-        <p>
-          <FontAwesomeIcon icon={faPhone}/>+001-123-456-7890
-        </p>
-        <div className="contact-link">
-          <FontAwesomeIcon icon={faSearch} />
-          <FontAwesomeIcon icon={faBook} />
-          <FontAwesomeIcon icon={faCrow} />
+        <div className="contact-details">
+          <p className="contact-info">
+            <FontAwesomeIcon icon={faEnvelope}/>support@themeptation.com
+          </p>
+          <p className="contact-info">
+            <FontAwesomeIcon icon={faPhone}/>+001-123-456-7890
+          </p>
+          <div className="contact-link">
+            <FontAwesomeIcon icon={faSearch} />
+            <FontAwesomeIcon icon={faBook} />
+            <FontAwesomeIcon icon={faCrow} />
+          </div>
         </div>
       </div>
     </div>

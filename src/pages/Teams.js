@@ -8,7 +8,7 @@ const Teams = () => {
   const twitter = "https://www.twitter.com/";
 
   return (
-    <div className="team-container">
+    <div id="team-container">
       <h4>Our Team</h4>
       <div className="member-cards-container">
         <MemberCard image = "https://unsplash.it/200/400" member="Mark John" role="Devoloper" facebook={facebook} google={google} twitter={twitter}/>
